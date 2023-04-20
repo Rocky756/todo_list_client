@@ -1,0 +1,21 @@
+.header{
+  background-color: lightblue;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  margin-left: 1rem;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.loginButton {
+  margin-right: 1rem;
+}

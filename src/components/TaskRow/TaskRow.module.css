@@ -1,0 +1,19 @@
+.narrowColumn {
+  width: 10%;
+  white-space: nowrap;
+}
+
+.buttonEdit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  /* border-radius: 50%; */
+}
+
+.customPencilIcon {
+  color: #007bff;
+  cursor: pointer;
+}

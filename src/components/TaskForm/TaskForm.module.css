@@ -1,0 +1,34 @@
+.formRow {
+  margin-bottom: 1rem;
+}
+
+.formСol {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 33%;
+}
+
+.addTaskButton {
+  margin-bottom: 1rem;
+}
+
+
+@media (max-width: 576px) {
+  .formRow {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  
+  .formСol {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+  
+  .inputText {
+    margin-bottom: 1rem;
+  }
+
+  .addTaskButton {
+  }
+}
